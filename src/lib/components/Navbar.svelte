@@ -26,18 +26,21 @@
   });
 </script>
 
-<nav class="bg-white shadow-md fixed w-full z-10">
-  <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-    <a href="/" on:click={scrollToTop} class="flex items-center">
-      <img src={logo} alt="G4GI Logo" class="h-10 mr-3" />
-      <span class="text-2xl font-bold text-gray-800">G4GI</span>
-    </a>
+<nav class="bg-white shadow-md fixed w-full z-50 top-0" role="navigation" aria-label="Main navigation">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center py-3 sm:py-4">
+      <a href="/" on:click={scrollToTop} class="flex items-center space-x-2 sm:space-x-3 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 rounded-lg px-2" aria-label="G4GI Home">
+        <img src={logo} alt="G4GI Logo" class="h-8 sm:h-10 w-auto" />
+        <span class="text-xl sm:text-2xl font-bold text-gray-800">G4GI</span>
+      </a>
 
-    <!-- Hamburger Menu -->
-    <div class="md:hidden">
+      <!-- Hamburger Menu -->
       <button
         on:click={toggleMenu}
-        class="text-gray-800 hover:text-purple-600 focus:outline-none"
+        class="md:hidden p-2 rounded-md text-gray-800 hover:text-purple-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors"
+        aria-label="Toggle menu"
+        aria-expanded={isOpen}
+        aria-controls="mobile-menu"
       >
         <svg
           class="h-6 w-6"
@@ -47,6 +50,7 @@
           stroke-width="2"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          aria-hidden="true"
         >
           {#if isOpen}
             <path d="M6 18L18 6M6 6l12 12" />
@@ -55,72 +59,102 @@
           {/if}
         </svg>
       </button>
-    </div>
 
-    <!-- Desktop Menu -->
-    <div class="hidden md:flex items-center space-x-6">
-      <a
-        href="/about"
-        class="text-gray-600 hover:text-purple-600 transition {$page.url.pathname === '/about' ? 'text-purple-600' : ''}"
-      >
-        About
-      </a>
-      <a
-        href="/programs"
-        class="text-gray-600 hover:text-purple-600 transition {$page.url.pathname === '/programs' ? 'text-purple-600' : ''}"
-      >
-        Programs
-      </a>
-      <a
-        href="/impact"
-        class="text-gray-600 hover:text-purple-600 transition {$page.url.pathname === '/impact' ? 'text-purple-600' : ''}"
-      >
-        Impact
-      </a>
-      <a
-        href="/team"
-        class="text-gray-600 hover:text-purple-600 transition {$page.url.pathname === '/team' ? 'text-purple-600' : ''}"
-      >
-        Team
-      </a>
-      <a
-        href="/contact"
-        class="text-gray-600 hover:text-purple-600 transition {$page.url.pathname === '/contact' ? 'text-purple-600' : ''}"
-      >
-        Contact
-      </a>
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-1 lg:space-x-2">
+        <a
+          href="/about"
+          on:click={scrollToTop}
+          class="px-3 lg:px-4 py-2 rounded-md text-sm lg:text-base font-medium text-gray-600 hover:text-purple-600 hover:bg-purple-50 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/about' ? 'text-purple-600 bg-purple-50' : ''}"
+          aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
+        >
+          About
+        </a>
+        <a
+          href="/programs"
+          on:click={scrollToTop}
+          class="px-3 lg:px-4 py-2 rounded-md text-sm lg:text-base font-medium text-gray-600 hover:text-purple-600 hover:bg-purple-50 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/programs' ? 'text-purple-600 bg-purple-50' : ''}"
+          aria-current={$page.url.pathname === '/programs' ? 'page' : undefined}
+        >
+          Programs
+        </a>
+        <a
+          href="/impact"
+          on:click={scrollToTop}
+          class="px-3 lg:px-4 py-2 rounded-md text-sm lg:text-base font-medium text-gray-600 hover:text-purple-600 hover:bg-purple-50 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/impact' ? 'text-purple-600 bg-purple-50' : ''}"
+          aria-current={$page.url.pathname === '/impact' ? 'page' : undefined}
+        >
+          Impact
+        </a>
+        <a
+          href="/team"
+          on:click={scrollToTop}
+          class="px-3 lg:px-4 py-2 rounded-md text-sm lg:text-base font-medium text-gray-600 hover:text-purple-600 hover:bg-purple-50 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/team' ? 'text-purple-600 bg-purple-50' : ''}"
+          aria-current={$page.url.pathname === '/team' ? 'page' : undefined}
+        >
+          Team
+        </a>
+        <a
+          href="/contact"
+          on:click={scrollToTop}
+          class="px-3 lg:px-4 py-2 rounded-md text-sm lg:text-base font-medium text-gray-600 hover:text-purple-600 hover:bg-purple-50 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/contact' ? 'text-purple-600 bg-purple-50' : ''}"
+          aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}
+        >
+          Contact
+        </a>
+      </div>
     </div>
   </div>
 
   <!-- Mobile Menu -->
   {#if isOpen}
-    <div class="md:hidden bg-white">
-      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+    <div id="mobile-menu" class="md:hidden bg-white border-t border-gray-200 shadow-lg" role="menu">
+      <div class="px-2 pt-2 pb-4 space-y-1">
         <a
           href="/about"
-          class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition"
-          on:click={() => (isOpen = false)}>About</a
+          on:click={() => { isOpen = false; scrollToTop(); }}
+          class="block px-3 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/about' ? 'bg-purple-50 text-purple-600' : ''}"
+          role="menuitem"
+          aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
         >
+          About
+        </a>
         <a
           href="/programs"
-          class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition"
-          on:click={() => (isOpen = false)}>Programs</a
+          on:click={() => { isOpen = false; scrollToTop(); }}
+          class="block px-3 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/programs' ? 'bg-purple-50 text-purple-600' : ''}"
+          role="menuitem"
+          aria-current={$page.url.pathname === '/programs' ? 'page' : undefined}
         >
+          Programs
+        </a>
         <a
           href="/impact"
-          class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition"
-          on:click={() => (isOpen = false)}>Impact</a
+          on:click={() => { isOpen = false; scrollToTop(); }}
+          class="block px-3 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/impact' ? 'bg-purple-50 text-purple-600' : ''}"
+          role="menuitem"
+          aria-current={$page.url.pathname === '/impact' ? 'page' : undefined}
         >
+          Impact
+        </a>
         <a
           href="/team"
-          class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition"
-          on:click={() => (isOpen = false)}>Team</a
+          on:click={() => { isOpen = false; scrollToTop(); }}
+          class="block px-3 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/team' ? 'bg-purple-50 text-purple-600' : ''}"
+          role="menuitem"
+          aria-current={$page.url.pathname === '/team' ? 'page' : undefined}
         >
+          Team
+        </a>
         <a
           href="/contact"
-          class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition"
-          on:click={() => (isOpen = false)}>Contact</a
+          on:click={() => { isOpen = false; scrollToTop(); }}
+          class="block px-3 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-white hover:bg-purple-600 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 {$page.url.pathname === '/contact' ? 'bg-purple-50 text-purple-600' : ''}"
+          role="menuitem"
+          aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}
         >
+          Contact
+        </a>
       </div>
     </div>
   {/if}
