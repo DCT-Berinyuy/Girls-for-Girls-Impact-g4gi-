@@ -1,7 +1,7 @@
 
 <script>
   import { page } from '$app/stores';
-  import logo from '$lib/assets/favicon.svg';
+  import logo from '$lib/assets/icon_log.png';
   import { onMount } from 'svelte';
   import { scrollToTop } from '$lib/utils/scrollToTop';
 
