@@ -12,21 +12,17 @@
       </div>
 
       <div class="flex space-x-4 sm:space-x-6">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="G4GI on Facebook" class="hover:text-purple-400 transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-gray-800 rounded">
+        <a href="https://www.linkedin.com/company/girls-for-global-impact/" target="_blank" rel="noopener noreferrer" aria-label="G4GI on LinkedIn" class="hover:text-purple-400 transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-gray-800 rounded">
           <svg class="h-5 w-5 sm:h-6 sm:w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
           </svg>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="G4GI on Twitter" class="hover:text-purple-400 transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-gray-800 rounded">
+        <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" aria-label="G4GI on WhatsApp" class="hover:text-purple-400 transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-gray-800 rounded">
           <svg class="h-5 w-5 sm:h-6 sm:w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-.424.727-.666 1.581-.666 2.477 0 1.61.823 3.027 2.071 3.857-.76-.025-1.475-.232-2.102-.578v.064c0 2.253 1.605 4.129 3.737 4.568-.39.106-.803.163-1.227.163-.3 0-.593-.028-.877-.082.593 1.844 2.308 3.187 4.341 3.224-1.593 1.248-3.604 1.991-5.786 1.991-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.092 7.14 2.092 8.57 0 13.255-7.098 13.255-13.254 0-.202-.005-.403-.014-.602.91-.658 1.7-1.475 2.323-2.41z" />
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.447-4.433-9.886-9.889-9.886-5.448 0-9.886 4.434-9.889 9.885-.002 2.024.63 3.891 1.742 5.485l-1.266 4.625 4.75-1.246zm5.421-8.201c-.12-.216-.436-.345-.635-.345-.21 0-.425.019-.622.333-.221.333-.752 1.024-.922 1.223-.17.199-.34.216-.59.099-.25-.116-1.017-.373-1.941-1.192-.718-.636-1.283-1.418-1.442-1.666-.159-.248-.011-.391.104-.517.1-.116.221-.299.333-.448.111-.149.149-.25.22-.416.071-.167.036-.31-.024-.432-.06-.12-.59-1.42-.817-1.949-.225-.528-.451-.451-.621-.451-.17 0-.341.009-.51.009-.17 0-.436.06-.66.333-.224.272-.816.781-.816 1.896s.836 2.202.952 2.369c.116.166 1.599 2.542 3.907 3.537.536.234.952.376 1.282.472.503.148.94.128 1.27.079.359-.051 1.017-.416 1.165-.82.149-.404.149-.75.104-.82z"/>
           </svg>
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="G4GI on Instagram" class="hover:text-purple-400 transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-gray-800 rounded">
-          <svg class="h-5 w-5 sm:h-6 sm:w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.012 3.584-.07 4.85c-.148 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.07-1.645-.07-4.85s.012-3.584.07-4.85c.148-3.225 1.664-4.771 4.919-4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.072-4.948-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z" />
-          </svg>
-        </a>
+        
       </div>
 
       <nav class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 lg:space-x-6 text-center" aria-label="Footer navigation">
@@ -40,7 +36,7 @@
 
     <div class="mt-8 sm:mt-10 border-t border-gray-700 pt-6 sm:pt-8">
       <p class="text-center text-xs sm:text-sm text-gray-500">
-        © {new Date().getFullYear()} Girls for Global Impact (G4GI) | Built with 💡 by <a href="https://verla.42web.io" target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:text-pink-400 hover:underline transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded">Mr.DCT</a>
+        © {new Date().getFullYear()} Girls for Global Impact (G4GI) | Built with 💡 by <a href="https://linktr.ee/DeepCodeThinking" target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:text-pink-400 hover:underline transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded">Mr.DCT</a>
       </p>
     </div>
   </div>
