@@ -1,3 +1,6 @@
+import orphans from '$lib/assets/orphans.jpg';
+import digital_lit from '$lib/assets/digital_lit.jpeg';
+
 export const impactData = [
   {
     id: 'girls-empowered',
@@ -24,14 +27,14 @@ export const impactData = [
     id: 'project-outreach-2023',
     title: 'Orphanage Outreach 2023',
     description: 'Provided essential supplies and mentorship to girls in local orphanages.',
-    image: '/lib/assets/orphans.jpg',
+    image: orphans,
     type: 'highlight'
   },
   {
     id: 'digital-literacy-drive',
     title: 'Digital Literacy Drive',
     description: 'Equipped girls with basic computer skills and internet safety knowledge.',
-    image: '/lib/assets/digital_lit.jpeg',
+    image: digital_lit,
     type: 'highlight'
   }
 ];
