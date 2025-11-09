@@ -24,14 +24,14 @@ export const impactData = [
     id: 'project-outreach-2023',
     title: 'Orphanage Outreach 2023',
     description: 'Provided essential supplies and mentorship to girls in local orphanages.',
-    image: '/images/orphans.jpg',
+    image: '/lib/assets/orphans.jpg',
     type: 'highlight'
   },
   {
     id: 'digital-literacy-drive',
     title: 'Digital Literacy Drive',
     description: 'Equipped girls with basic computer skills and internet safety knowledge.',
-    image: '/images/digital_lit.jpg',
+    image: '/lib/assets/digital_lit.jpeg',
     type: 'highlight'
   }
 ];
