@@ -12,7 +12,7 @@
         <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-pink-600 mb-6 text-center">Our Story</h2>
         <div class="space-y-4 sm:space-y-6">
           <p class="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed">
-            Girls for Global Impact (G4GI) was founded with a profound belief in the power of young girls to transform their communities and the world. Our journey began with the realization that many girls, particularly in underserved regions of Cameroon, face significant barriers to education, leadership opportunities, and personal development. Inspired by the resilience and potential of these girls, Abigail Epongseh Mba'ah Mbatu ("The Impact") envisioned an organization that would not only address these challenges but also empower girls to become agents of change themselves.
+            Girls for Global Impact (G4GI) was founded with a profound belief in the power of young girls to transform their communities and the world. Our journey began with the realization that many girls, particularly in underserved regions of Cameroon, face significant barriers to education, leadership opportunities, and personal development. Inspired by the resilience and potential of these girls, <b>Abigail Epongseh Mba'ah Mbatu</b> ("The Impact") envisioned an organization that would not only address these challenges but also empower girls to become agents of change themselves.
           </p>
           <p class="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed">
             From humble beginnings, G4GI has grown into a vibrant movement, driven by a passion to nurture the next generation of female leaders. We believe that by investing in girls, we are investing in a brighter future for everyone.
