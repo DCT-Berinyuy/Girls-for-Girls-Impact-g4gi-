@@ -17,7 +17,7 @@ export const teamMembers = [
   },
     {
     id: 'brandon',
-    name: 'Awa Brandon Nji',
+    name: 'Awa Brandon',
     role: 'Vice President',
     image: brandon,
     social: {
@@ -35,7 +35,7 @@ export const teamMembers = [
   },
   {
     id: 'awa-bryan',
-    name: 'Awa Bryan',
+    name: 'Awa Bryan Nji',
     role: 'Head 0f Operations',
     image: bryan,
     social: {
