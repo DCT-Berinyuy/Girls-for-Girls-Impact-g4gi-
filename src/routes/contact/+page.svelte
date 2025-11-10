@@ -27,10 +27,10 @@
           <h3 class="text-xl sm:text-2xl font-semibold text-purple-800 mb-4">Our Details</h3>
           <div class="space-y-3">
             <p class="text-base sm:text-lg text-gray-700">
-              <strong class="text-purple-600">Email:</strong> <a href="mailto:info@g4gi.org" class="text-teal-600 hover:text-teal-700 hover:underline transition">info@g4gi.org</a>
+              <strong class="text-purple-600">Email:</strong> <a href="abigailepongseh@gmail.com" class="text-teal-600 hover:text-teal-700 hover:underline transition">abigailepongseh@gmail.com</a>
             </p>
             <p class="text-base sm:text-lg text-gray-700">
-              <strong class="text-purple-600">Location:</strong> Douala, Cameroon
+              <strong class="text-purple-600">Location:</strong> Yaounde, Cameroon
             </p>
           </div>
         </div>

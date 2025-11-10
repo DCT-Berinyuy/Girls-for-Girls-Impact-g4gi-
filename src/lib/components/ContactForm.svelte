@@ -37,7 +37,7 @@
 
 <div class="bg-white p-6 sm:p-8 lg:p-10 rounded-xl shadow-lg h-full">
   <h2 id="contact-form-heading" class="text-2xl sm:text-3xl font-bold text-purple-800 mb-6 sm:mb-8 text-center">Send Us a Message</h2>
-  <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST" on:submit|preventDefault={handleSubmit} aria-labelledby="contact-form-heading">
+  <form action="https://formspree.io/f/xwpaedwp" method="POST" on:submit|preventDefault={handleSubmit} aria-labelledby="contact-form-heading">
     <div class="mb-4 sm:mb-6">
       <label for="name" class="block text-gray-700 text-sm sm:text-base font-semibold mb-2">Name <span class="text-pink-600">*</span></label>
       <input
