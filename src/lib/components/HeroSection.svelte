@@ -11,7 +11,7 @@
 
 <section
   class="relative bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center text-white overflow-hidden"
-  style="background-image: url('/src/lib/assets/bg1.jpeg');"
+  style="background-image: url('/images/bg1.jpeg');"
   role="banner"
   aria-label="Hero section"
 >
