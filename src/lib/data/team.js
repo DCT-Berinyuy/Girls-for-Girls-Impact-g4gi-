@@ -8,9 +8,9 @@ export const teamMembers = [
     role: 'Founder & Executive Director',
     image: ceo_size, // Using the founder's image for consistency
     social: {
+      linkedin: 'https://www.linkedin.com/in/abigailepongsehmbaahmbatu/',
       facebook: 'https://facebook.com/abigail.mbatu',
-      twitter: 'https://twitter.com/abigail_mbatu',
-      linkedin: 'https://linkedin.com/in/abigail-mbatu'
+      twitter: 'https://twitter.com/abigail_mbatu'
     }
   },
   {
