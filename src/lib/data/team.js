@@ -1,5 +1,7 @@
 import ceo_size from '$lib/assets/ceo_size.jpeg'
 import Vice_Presi from '$lib/assets/Vice_Presi.jpg'
+import brandon from '$lib/assets/brandon.jpg'
+import bryan from '$lib/assets/bryan.jpg'
 
 export const teamMembers = [
   {
@@ -11,6 +13,15 @@ export const teamMembers = [
       linkedin: 'https://www.linkedin.com/in/abigailepongsehmbaahmbatu/',
       facebook: 'https://facebook.com/abigail.mbatu',
       twitter: 'https://twitter.com/abigail_mbatu'
+    }
+  },
+    {
+    id: 'brandon',
+    name: 'Awa Brandon Nji',
+    role: 'Vice President',
+    image: brandon,
+    social: {
+      twitter: 'https://twitter.com/johnsmith'
     }
   },
   {
@@ -26,7 +37,7 @@ export const teamMembers = [
     id: 'awa-bryan',
     name: 'Awa Bryan',
     role: 'Head 0f Operations',
-    image: 'https://via.placeholder.com/150/9370DB/FFFFFF?text=John',
+    image: bryan,
     social: {
       twitter: 'https://twitter.com/johnsmith'
     }
